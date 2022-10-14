@@ -70,7 +70,7 @@ Pasa el primer objeto de datos de los `tweets` como prop al componente `Tweet`:
 <!-- src/App.vue -->
 <!-- ... -->
 
-<Tweet tweet="tweets" />
+<Tweet :tweet="tweets[0]" />
 ```
 
 **Mostrar el contenido del tweet en el componente `Tweet`**
